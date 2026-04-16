@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI OBSERVER — Home</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .home-card-grid .card-image {
+      width: 100%;
+      overflow: hidden;
+    }
+    .home-card-grid .card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .home-card-grid .card:nth-child(1) .card-image { height: 260px; } 
+    .home-card-grid .card:nth-child(2) .card-image { height: 260px; } 
+    .home-card-grid .card:nth-child(3) .card-image { height: 260px; } 
+    .home-card-grid .card:nth-child(4) .card-image { height: 280px; } 
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="navbar container">
+      <a href="./index.html" class="brand">
+        <span class="brand-mark">T.</span>
+        <span>AI OBSERVER</span>
+      </a>
+            <nav class="site-nav" aria-label="Main navigation">
+        <div class="nav-group">
+          <a href="core-concepts/aigc-definition.html">Core Concepts</a>
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-label="Toggle submenu"></button>
+          <div class="submenu">
+            <a href="core-concepts/aigc-definition.html">Definition and Category of AIGC</a>
+            <a href="core-concepts/classifying-misinformation.html">Classifying Misinformation</a>
+            <a href="core-concepts/double-edged-sword.html">The Double-Edged Sword</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a href="literature/mechanism.html">Literature</a>
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-label="Toggle submenu"></button>
+          <div class="submenu">
+            <a href="literature/mechanism.html">Mechanism</a>
+            <a href="literature/psychology-trust.html">Psychology and Trust</a>
+            <a href="literature/dissemination-algorithms.html">Dissemination and Algorithms</a>
+            <a href="literature/ethics-detection.html">Ethics and Detection</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a href="truth-lab/myths-debunked.html">Truth Lab</a>
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-label="Toggle submenu"></button>
+          <div class="submenu">
+            <a href="truth-lab/myths-debunked.html">Myths Debunked</a>
+            <a href="truth-lab/case-study.html">Case Study</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a href="future-strategies/technical-solution.html">Future Strategies</a>
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-label="Toggle submenu"></button>
+          <div class="submenu">
+            <a href="future-strategies/technical-solution.html">Technical Solution</a>
+            <a href="future-strategies/legal-policy.html">Legal and Policy</a>
+            <a href="future-strategies/social-countermeasures.html">Social Countermeasures</a>
+          </div>
+        </div>
+        <a href="reference.html">Reference</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero container">
+      <div>
+        <p class="small-tag">AIDM7350 Project</p>
+        <h1 class="hero-title"><span>AI IN CONTENT</span><span>CREATION AND MISINFORMATION.</span></h1>
+        <p class="hero-subtitle">A structured academic exploration of how generative AI reshapes content creation, amplifies misinformation, and challenges the foundations of digital truth.</p>
+        <div class="hero-actions">
+          <a class="button" href="./core-concepts/aigc-definition.html">Start Exploring</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="home-card-grid">
+        <article class="card home-card-large">
+          <div class="card-image">
+            <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1776064993510.jpg" alt="Core Concepts" />
+          </div>
+          <div class="card-body">
+            <span class="badge">Core Concepts</span>
+            <p class="section-copy">AIGC spans text, images, audio and video, while introducing risks like AI hallucinations, deepfakes and synthetic propaganda.</p>
+            <a class="button secondary" href="./core-concepts/aigc-definition.html">Explore Core Concepts</a>
+          </div>
+        </article>
+
+        <article class="card home-card-small">
+          <div class="card-image">
+            <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1776064997515.jpg" alt="Literature Review" />
+          </div>
+          <div class="card-body">
+            <span class="badge">Literature Review</span>
+            <p class="section-copy">Academic review covering detection algorithms, trust psychology, ethics and mechanisms of AI-generated misinformation.</p>
+            <a class="button secondary" href="./literature/mechanism.html">Read Literature</a>
+          </div>
+        </article>
+
+        <article class="card home-card-large">
+          <div class="card-image">
+            <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1776059323821.jpg?imageMogr2/format/webp" alt="AI investigation and truth analysis" />
+          </div>
+          <div class="card-body">
+            <span class="badge">Truth Lab</span>
+            <p class="section-copy">There is widespread confusion and misunderstanding about artificial intelligence among people. Many preconceived notions and cognitive biases are prevalent. For instance, learners often have a limited understanding of the technical principles of AI, and tend to anthropomorphize human characteristics and attributes onto AI systems, lacking a comprehensive understanding of their application scope, actual capabilities, and boundary limitations. [13]At the same time, when they view the risks, threats, and value of AI, they often fall into a binary opposition of black and white thinking, with ambiguous and unobjective viewpoints.</p>
+            <a class="button secondary" href="./truth-lab/case-study.html">Enter Truth Lab</a>
+          </div>
+        </article>
+
+        <article class="card home-card-small">
+          <div class="card-image">
+            <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1776064997215.jpg" alt="Future Strategies" />
+          </div>
+          <div class="card-body">
+            <span class="badge">Future Strategies</span>
+            <p class="section-copy">To address the governance challenges brought about by issues such as AI hallucinations and Deepfake forgeries, it is necessary to establish a tripartite collaborative governance system integrating technology, law and society, achieving full-chain coverage of pre-event prevention, in-event supervision and post-event accountability, resolving public misconceptions about AI, and promoting the healthy and standardized development of AI technology.</p>
+            <a class="button secondary" href="./future-strategies/technical-solution.html">View Strategies</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-inner">
+      <div>AI OBSERVER © 2026</div>
+      <div>AIDM7350 · AI and Digital Media</div>
+    </div>
+  </footer>
+  <script src="nav.js"></script>
+</body>
+</html>
